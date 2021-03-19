@@ -1,3 +1,22 @@
+# RSA : messages stéréotypés
+
+Le responsable informatique de la société CryptoFlop est un homme avisé :
+il change régulièrement les mots de passe des employés, transmettant
+à chacun son nouvel identifiant par simple mail de la forme::
+
+  "Cher collaborateur, votre nouveau mot de passe est xxxxxxxxxx. Merci de votre comprehension, le service informatique."
+
+mais en prenant soin de sécuriser le corps du mail par un chiffrement RSA
+avec la clef publique du destinataire.
+
+Le fichier ``main.gp`` contient les scripts qu'il utilise.
+
+Etudiez l'aide de la fonction ``zncoppersmith`` de Pari/GP, et déterminez le
+mot de passe correspondant au corps de mail intercepté dans le fichier
+``input.txt``.
+
+La première ligne est la clef publique ``[n,e]`` et
+la seconde le chiffré. Affichez tout le message déchiffré.
 
 ## Format
 
